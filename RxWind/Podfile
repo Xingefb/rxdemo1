@@ -1,0 +1,17 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '10.0'
+
+target 'RxWind' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod "CollectionKit"
+  pod 'RxFeedback', '~> 3.0'
+  pod 'Moya', '~> 13.0'
+  pod 'Kingfisher'  
+ # pod 'Realm'
+
+
+
+# Pods for RxWind
+
+end
